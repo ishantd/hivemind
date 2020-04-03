@@ -1,0 +1,1 @@
+$("#hide-nav-item").hide()

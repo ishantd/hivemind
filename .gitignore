@@ -1,1 +1,8 @@
-PinegrowLinux64.5.95.zip
+*.zip
+design
+examples
+docs
+assets/scss
+assets/demo
+elements.html
+assets/img
