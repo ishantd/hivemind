@@ -88,3 +88,30 @@ nav.navbar .navbar-toggler {
 .list {
   border-left: 2px solid #f4f4f4;
 }
+
+.trust {
+  width: 100%;
+  background-color: #262262;
+  padding: 5% 10%;
+}
+
+.contact {
+  width: 100%;
+  background-color: #242424;
+  padding: 5% 10%;
+}
+
+.contact input, select, textarea{
+  color: #f4f4f4 !important;
+  font-size: 2em !important;
+}
+
+.contact textarea:focus, input:focus {
+  color: #f4f4f4 !important;
+  font-size: 2em !important;
+}
+
+.contact .purple-white {
+  background-color: #f4f4f4 !important;
+  color: #262262 !important;
+}
