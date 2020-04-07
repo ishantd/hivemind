@@ -23,3 +23,15 @@ $('#carousel-example').on('slide.bs.carousel', function (e) {
         }
     }
 });
+
+$('.tabs').click(function() {
+    $(".tabs").removeClass("selected");
+    $(this).addClass('selected');
+})
+
+$(".tabs").click(function()
+    {
+        var selected = $(this).find("a").attr("data-target")
+        $(".tab-pane").removeClass('active');
+        $(selected).addClass('active');
+    });

@@ -203,6 +203,13 @@ nav.navbar .navbar-toggler {
   background-color: #262262;
   padding: 5% 10%;
 }
+.intro-diff {
+  overflow-y: hidden;
+  height: 50vh;
+  width: 100%;
+  background-color: #262262;
+  padding: 5% 10%;
+}
 
 .intro .row {
   height: 100%;
@@ -247,5 +254,25 @@ nav.navbar .navbar-toggler {
 
 .faqs .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
   color: #f4f4f4;
+  background-color: #262262;
+}
+
+.diff-tabs {
+  margin: 0;
+}
+
+.tabs {
+  overflow-y: hidden;
+}
+
+.diff-tabs .tabs {
+  height: 3em;
+}
+
+.diff-tabs .nav-tabs {
+  border: 0;
+}
+
+.diff-tabs .selected {
   background-color: #262262;
 }
