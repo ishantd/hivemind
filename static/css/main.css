@@ -16,9 +16,41 @@
 
 * {
   font-family: "nexa_demolight", Arial, sans-serif !important;
-  font-weight: normal;
-  font-style: normal;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
+}
+
+nav {
+  padding: 0% 10%;
+}
+
+.y-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.navbar-custom {
+  padding-top: 20px;
+  background-color:#262262;
+  }
+
+.navbar-custom a {
+  font-size: 1.2em;
+  color: #f4f4f4 !important;
+  /* font-weight: bold !important; */
+}
+
+.nav-icons {
+  margin-right: 5px;
+  font-size: 1.4em;
+}
+
+.white {
+  background-color: #f4f4f4;
+  height: 100%
+}
+.purple {
+  background-color: #262262;
+  height: 100%
 }
 
 .purple-bold {
@@ -67,7 +99,7 @@
 }
 .intro-video {
   width: 100%;
-  background-color: #242424;
+  background-color: #262262;
   padding: 5% 10%;
 }
 
@@ -96,20 +128,16 @@ nav.navbar .navbar-toggler {
   padding: 5% 10%;
 }
 
-.contact {
-  width: 100%;
-  background-color: #242424;
-  padding: 5% 10%;
-}
+
 
 .contact input, select, textarea{
-  color: #f4f4f4 !important;
-  font-size: 2em !important;
+  color: #242424 !important;
+  font-size: 1.4em !important;
 }
 
 .contact textarea:focus, input:focus {
-  color: #f4f4f4 !important;
-  font-size: 2em !important;
+  color: #242424 !important;
+  font-size: 1.4em !important;
 }
 
 .contact .purple-white {
@@ -167,4 +195,57 @@ nav.navbar .navbar-toggler {
 
 .footer .links {
   float: right;
+}
+
+.intro {
+  height: 100vh;
+  width: 100%;
+  background-color: #262262;
+  padding: 5% 10%;
+}
+
+.intro .row {
+  height: 100%;
+}
+
+.investment {
+  height: 50vh;
+  width: 100%;
+}
+
+.investment .contianer {
+  height: 100%;
+}
+
+.rounded-text {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.video {
+  height: 70vh;
+  width: 100%;
+  overflow-y: hidden !important;
+}
+
+.video iframe {
+  height: 10%;
+  width: 100%;
+  overflow-y: hidden !important;
+}
+
+.lists li {
+  /*Using a Bootstrap glyphicon as the bullet point*/
+  font-size: 1.5em;
+}
+
+.blog-carousel {
+  height: 80vh;
+  width: 100%;
+
+}
+
+.faqs .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #f4f4f4;
+  background-color: #262262;
 }
