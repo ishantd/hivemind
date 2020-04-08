@@ -276,3 +276,30 @@ nav.navbar .navbar-toggler {
 .diff-tabs .selected {
   background-color: #262262;
 }
+
+.p-intro h2 {
+  line-height: 1.3em;
+}
+
+.text-1 {
+  border-left: 3px solid #262262;
+}
+
+.strategy h2, h3{
+  line-height: 1.5em;
+}
+.strategy p{
+  font-size: 1.2em;
+  line-height: 2em;
+}
+
+.offwhite {
+    background-color: rgb(180, 177, 177);
+    height: 100%
+  
+}
+
+.inline {
+  display:inline-flex;
+}
+
