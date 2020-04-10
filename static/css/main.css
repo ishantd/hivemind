@@ -125,7 +125,7 @@ nav.navbar .navbar-toggler {
 .trust {
   width: 100%;
   background-color: #262262;
-  padding: 5% 10%;
+
 }
 
 
@@ -208,7 +208,6 @@ nav.navbar .navbar-toggler {
   height: 50vh;
   width: 100%;
   background-color: #262262;
-  padding: 5% 10%;
 }
 
 .intro .row {
@@ -303,3 +302,46 @@ nav.navbar .navbar-toggler {
   display:inline-flex;
 }
 
+.retail, .why-us p {
+  font-size: 1.4em;
+  line-height: 2em;
+}
+
+.why-us .b-left {
+  border-left: 3px solid #262262;
+}
+
+.why-us .b-right {
+  border-right: 3px solid #262262;
+}
+
+#col-head {
+  border-left: 3px solid #f4f4f4;
+}
+
+#col-text-left {
+  border-left: 3px solid #f4f4f4;
+}
+
+#hex-bg {
+  top: 20px;
+  right: 0;
+}
+
+.p-image {
+  height: 70vh;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.trust .col-md-6 img {
+  margin-top: -60px;
+  top: 0;
+
+}
