@@ -44,6 +44,7 @@ nav {
   font-size: 1.4em;
 }
 
+
 .white {
   background-color: #f4f4f4;
   height: 100%
@@ -109,9 +110,18 @@ nav.navbar .navbar-toggler {
 }
 
 .hivemind-difference {
+  position: relative;
+  height: 60vh;
+  margin-top: auto;
   width: 100%;
   background-color: #262262;
   padding: 5% 10%;
+}
+
+.hivemind-difference .container {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
 }
 
 .hd li {
@@ -127,6 +137,8 @@ nav.navbar .navbar-toggler {
   background-color: #262262;
 
 }
+
+
 
 
 
@@ -188,7 +200,7 @@ nav.navbar .navbar-toggler {
 }
 
 
-.footer .links a, h3 {
+.footer .links a, h3, h5 {
   margin-right: 3%;
   display: inline;
 }
@@ -198,7 +210,7 @@ nav.navbar .navbar-toggler {
 }
 
 .intro {
-  height: 100vh;
+  height: 80vh;
   width: 100%;
   background-color: #262262;
   padding: 5% 10%;

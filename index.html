@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="static/css/main.css">
+  <link rel="stylesheet" href="static/css/hover.css">
   <link rel="stylesheet" href="static/css/carousel.css">
   <!-- <link rel="stylesheet" href="static/css/faq.css">      -->
 
@@ -50,23 +51,23 @@
         </ul>
       </div>
 </nav>
-  <nav class="navbar navbar-expand-sm navbar-custom" style="padding: 0% 10%">
+  <nav class="navbar navbar-expand-sm navbar-custom" id="main-nav" style="padding: 0% 10%">
       <div class="collapse navbar-collapse navbars" id="collapse_target2">
           <ul class="navbar-nav ml-auto white-bold">
               <li class="nav-item p-2">
-                  <a class="nav-link" href="#">Home</a>
+                  <a class="nav-link hvr-underline-from-left" href="#">Home</a>
               </li>
               <li class="nav-item p-2">
-                  <a class="nav-link" href="#">About Us</a>
+                  <a class="nav-link hvr-underline-from-left" href="#">About Us</a>
               </li>
               <li class="nav-item p-2">
-                  <a class="nav-link" href="#">Careers</a>
+                  <a class="nav-link hvr-underline-from-left" href="#">Careers</a>
               </li>
               <li class="nav-item p-2">
-                <a class="nav-link" href="#">Clients</a>
+                <a class="nav-link hvr-underline-from-left" href="#">Clients</a>
             </li>
             <li class="nav-item p-2">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link hvr-underline-from-left" href="#">Contact</a>
           </li>
           </ul>
       </div>
@@ -76,11 +77,12 @@
   <div class="container"> -->
    <div class = "intro">
       <div class="row h-100">
-        <div class="col-md-4 my-auto">
-          <h1 class="white-bold">
+        <div class="col-md-6 my-auto">
+          <h1 class="white-bold" style="font-size: 3.0em;">
             EARN A SECOND SALARY EVERY MONTH, USING JUST YOUR SAVINGS
-          </h1> <br>
-          <button type="button" class="btn btn-success">Learn More</button>
+          </h1>
+          <h1 class="white-light">We build additional sources of income for you.</h1><br>
+          <button type="button" style="font-size: 1.5em" class="btn btn-success">Learn More</button>
         </div>
       </div>
    </div>
@@ -101,11 +103,11 @@
 <div class="intro-video">
   <div class="container">
       <div class="row">
-          <div class="col-md-5">
-            <h1 class="title white-bold justify">THE EASIEST WAY TO GROW YOUR MONEY</h1> <br>
-            <h3 class="white-light justify">OUR INVESTMENT APPROACH</h3> <br> <br>
-            <h4 class="description white-light justify">We invest your money to ensure long term
-               capital appreciation and guarantee financial security.</h4>
+          <div class="col-md-5 my-auto">
+            <h2 class="title white-bold justify">THE EASIEST WAY TO GROW YOUR MONEY</h2> <br>
+            <h4 class="white-light justify">OUR INVESTMENT APPROACH</h4> <br>
+            <h5 class="description white-light justify">We invest your money to ensure long term
+               capital appreciation and guarantee financial security.</h5>
           </div>
           <div class="col-md-7 ml-auto mr-auto my-auto">
             <div class="embed-responsive embed-responsive-16by9">
@@ -124,7 +126,7 @@
   </div>
 </div>
 
-<div class="hivemind-difference">
+<div class="hivemind-difference my-auto">
   <div class="container">
     <div class="row">
       <div class="col-md-8 my-auto">
@@ -133,10 +135,10 @@
       <div class="col-md-4 my-auto">
         <div class="list">
           <ul class="white-bold hd" style="list-style-type:none; font-size: 1.5em;">
-            <li>Principles and Culture &#9;<i class="fa fa-angle-right"></i></li>
-            <li>Strategy &#9;<i class="fa fa-angle-right"></i></li>
-            <li>Retail Advisory &#9;<i class="fa fa-angle-right"></i></li>
-            <li>Why Us? &#9;<i class="fa fa-angle-right"></i></li>
+            <li><a href="hive-diff.html" class="white-bold">Principles and Culture &#9;<i class="fa fa-angle-right"></i></a></li>
+            <li><a href="hive-diff.html" class="white-bold">Strategy &#9;<i class="fa fa-angle-right"></i></a></li>
+            <li><a href="hive-diff.html" class="white-bold">Retail Advisory &#9;<i class="fa fa-angle-right"></i></a></li>
+            <li><a href="hive-diff.html" class="white-bold">Why Us? &#9;<i class="fa fa-angle-right"></i></a></li>
           </ul>
         </div>
       </div>
@@ -188,7 +190,7 @@
 
 <div class="trust">
   <div class="row">
-    <div class="col-md-6 align-bottom p-5">
+    <div class="col-md-6 align-bottom p-5 my-auto">
       <h1 class="title white-bold justify">WE CONSIDER YOUR TRUST IN US TO BE THE HIGHEST FORM OF PRIVELEGE</h1>
     </div>
     <div class="col-md-6">
@@ -252,20 +254,22 @@
       <h3 class="white-light text-center">Invest Smartly to Change your life.</h3> <br> <br>
       <h3 class="white-bold text-center">Let's schedule a call.</h3>
     </div>
-    <div class="col-md-6 ml-auto p-5">
+    <div class="col-md-6 ml-auto my-auto p-5">
       <form action="">
         <div class="form-group">
           <!-- <label for=""></label> -->
-          <input type="email" class="form-control m-4" name="" id="" aria-describedby="emailHelpId" placeholder="EMAIL">
-          <!-- input:<div class="form-group"> -->
-            <!-- <label for=""></label> -->
-            <input type="text" name="" id="" class="form-control m-4" placeholder="NAME" aria-describedby="helpId">
-            <button type="submit" style="font-size: 1.4em;"class="btn btn-success float-right">Submit</button>
-            <!-- <small id="helpId" class="text-muted">Help text</small> -->
+          <div class="input-group">
+            <input type="text" aria-label="name" placeholder="Name" class="form-control">
+            <input type="email" aria-label="email" placeholder="Email" class="form-control">
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary bg-success white-light" style="font-size: 1.2em;"  type="button" id="button-addon2">Schedule a Call!</button>
+              </div>
           </div>
+            
           <!-- <small id="emailHelpId" class="form-text text-muted">Help text</small> -->
-        </div>
+        
       </form>
+    </div>
     </div>
   </div>
 </div>
@@ -679,12 +683,12 @@
   <!-- <div class="container"> -->
     <div class="row">
       <div class="col-md-6 text-left">
-        <h1 class="title white-bold justify">Join fellow investors.</h1>
-        <h2 class="white-bold">Invest smartly and live a better life.</h2> <br>
+        <h2 class="title white-bold justify">Join fellow investors.</h2>
+        <h3 class="white-bold">Invest smartly and live a better life.</h3> <br>
       </div>
       <div class="col-md-6 text-right float-right">
-        <h2 class="title white-bold justify">A-272, Defence Colony, Delhi - 110024 </h2 >
-        <h2 class="white-light">+91-9999-9999-99</h2> <br>
+        <h4 class="title white-bold justify">A-272, Defence Colony, Delhi - 110024 </h4 >
+        <h4 class="white-light">+91-9999-9999-99</h4> <br>
       </div>
     </div>
     <div class="row">
@@ -696,11 +700,10 @@
         </script> HMC
         </h3>
       </div>
-      <div class="col-md-6 mr-auto my-auto float-right links">
-        
-        <a href=""> <h3 class="white-light">Privavy</h3> </a>
-        <a href=""> <h3 class="white-light">Cookies</h3> </a>
-        <a href=""> <h3 class="white-light">Terms of use</h3> </a>
+      <div class="col-md-6 my-auto text-right links">
+        <a href=""> <h5 class="white-light">Privavy</h5> </a>
+        <a href=""> <h5 class="white-light">Cookies</h5> </a>
+        <a href=""> <h5 class="white-light">Terms of use</h5> </a>
       </div>
     </div>
   <!-- </div> -->
