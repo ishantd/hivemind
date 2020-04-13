@@ -483,9 +483,33 @@ nav.navbar .navbar-toggler {
   border: 2px solid #f4f4f4;
 }
 
+.subscribe .btn {
+  color:#f4f4f4;
+  background-color: #262262;
+  border-radius: 20px;
+  border: none;
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  line-height: 25px;
+  transition: 0.3s;
+}
+
+.subscribe .btn:hover {
+  color:#262262;
+  font-weight: bold;
+  background-color:#f4f4f4;
+  border: 2px solid #262262;
+}
+
 @media screen and (max-width: 767px) {
   #myFooter {
       text-align: center;
   }
+}
+
+.join-us h2 {
+  letter-spacing: 0.12em;
 }
 
