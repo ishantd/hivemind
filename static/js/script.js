@@ -35,3 +35,17 @@ $(".tabs").click(function()
         $(".tab-pane").removeClass('active');
         $(selected).addClass('active');
     });
+    $("#subscribe-form").hide();
+$("#subscribe-button").click(function(){
+    $(this).hide();
+    $("#subscribe-form").show();
+    $("#subscribe-form").addClass("animated pulse")
+})
+
+$("#sub-success").hide()
+
+$("#sub-submit").click(function(){
+    $("#sub-form").hide();
+    $("#sub-success").show();
+    $("#sub-success").addClass("animated flash")
+})

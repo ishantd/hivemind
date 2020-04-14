@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="static/css/main.css">
   <link rel="stylesheet" href="static/css/hover.css">
   <link rel="stylesheet" href="static/css/carousel.css">
-  <!-- <link rel="stylesheet" href="static/css/faq.css">      -->
+  <link rel="stylesheet" href="static/css/animate.css">
 
 </head>
 
@@ -69,6 +69,9 @@
             <li class="nav-item p-2">
               <a class="nav-link hvr-underline-from-left" href="#">Contact</a>
           </li>
+          <li class="nav-item p-2">
+            <a class="nav-link hvr-underline-from-left" href="#">Blogs</a>
+        </li>
           </ul>
       </div>
   </nav>
@@ -105,8 +108,8 @@
       <div class="row">
           <div class="col-md-5 my-auto">
             <h2 class="title white-bold justify">THE EASIEST WAY TO GROW YOUR MONEY</h2> <br>
-            <h4 class="white-light justify">OUR INVESTMENT APPROACH</h4> <br>
-            <h5 class="description white-light justify">We invest your money to ensure long term
+            <h3 class="white-light justify">OUR INVESTMENT APPROACH</h4>
+            <h4 class="description white-light justify mt-3">We invest your money to ensure long term
                capital appreciation and guarantee financial security.</h5>
           </div>
           <div class="col-md-7 ml-auto mr-auto my-auto">
@@ -130,7 +133,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8 my-auto">
-        <a href="hive-diff.html"><h1 class="title white-light justify"><strong>THE HIVEMIND</strong> <br>DIFFERENCE</h1></a>
+        <h1 class="title white-light justify"><strong>THE HIVEMIND</strong> <br>DIFFERENCE</h1>
       </div>
       <div class="col-md-4 my-auto">
         <div class="list">
@@ -251,7 +254,7 @@
 <div class="contact p-5 purple">
   <div class="row">
     <div class="col-md-6 text-center p-5 mt-4">
-      <h3 class="white-light text-center">Invest Smartly to Change your life.</h3> <br> <br>
+      <h3 class="white-light text-center">Invest smartly to change your life.</h3> <br> <br>
       <h3 class="white-bold text-center">Let's schedule a call.</h3>
     </div>
     <div class="col-md-6 ml-auto my-auto p-5">
@@ -284,7 +287,7 @@
 
 
 
-<div class="faqs">
+<div class="faqs p-5">
   <div class="container">
     <!-- <div class="row"> -->
         <!-- <div class="col-lg-4 mr-auto ml-auto my-auto"> -->
@@ -670,8 +673,8 @@
         <h1 class="white-bold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo amet odit quos commodi quam id
            molestias saepe natus corporis voluptatem dolorum aut, labore fuga! Autem quisquam iure a quos molestias!</h1>
       </div>
-      <div class="col-md-5 float-right">
-        <img src="https://images.unsplash.com/photo-1531251445707-1f000e1e87d0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=562&q=80" class="img-fluid" alt="Responsive image">
+      <div class="col-md-5 float-right" >
+        <img src="https://images.unsplash.com/photo-1531251445707-1f000e1e87d0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=562&q=80" style="max-height: 700px;" class="img-fluid" alt="Responsive image">
       </div>
       <div class="name white-bold">
         <h1>Ishant Dahiya</h2>
@@ -687,7 +690,24 @@
         <div class="join-us text-center">
             <h2 class="purple-bold text-center text-uppercase">Join fellow professionals</h2> <br>
             <h3 class="purple-light text-center">Get expert suggestions on investment management and how to efficiently manage your expenses.</h3>
-            <button type="button" style="font-size: 1.3em;" class="btn btn-default mt-3">Subscribe</button>
+            <button type="button" id="subscribe-button" style="font-size: 1.3em;" class="btn btn-default mt-3">Subscribe</button>
+            <div class="row ml-auto mr-auto" id="sub-form">
+                <div class="col-md-6 ml-auto mr-auto">
+                    <form action="" id="subscribe-form" class="mt-3">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="button-addon2">
+                            <div class="input-group-append">
+                              <button class="btn btn-outline-secondary" id="sub-submit" type="button" id="button-addon2">Submit</button>
+                            </div>
+                          </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row ml-auto mr-auto mt-5" id="sub-success">
+                <div class="col-md-6 ml-auto mr-auto">
+                    <h4 class="purple-bold">Thanks for subscribing!</h4>
+                </div>
+            </div>
         </div>
     </div>
 </div>

@@ -157,8 +157,8 @@ nav.navbar .navbar-toggler {
   color: #262262 !important;
 }
 
-.faqs {
-  padding: 2% 5%;
+.faqs a, .btn-link {
+  color: #262262;
 }
 
 .nav-tabs .nav-link, .nav-pills .nav-link {
@@ -491,7 +491,6 @@ nav.navbar .navbar-toggler {
   width: 150px;
   display: block;
   margin: 0 auto;
-  margin-top: 10px;
   line-height: 25px;
   transition: 0.3s;
 }
@@ -512,4 +511,5 @@ nav.navbar .navbar-toggler {
 .join-us h2 {
   letter-spacing: 0.12em;
 }
+
 
